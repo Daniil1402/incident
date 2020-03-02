@@ -4,9 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "sass --watch sass/style.sass css/style.css"
+    "start": "sass --watch sass/style.sass css/style.css",
+    "rimraf": "rimraf node_modules"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
 }
