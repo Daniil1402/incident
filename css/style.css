@@ -88,6 +88,26 @@
   margin-bottom: 10px;
 }
 
+.form__block {
+  background-color: #e9ecef;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.bed__title {
+  font-family: "hnc-black";
+  color: #566166;
+  font-size: 30px;
+  line-height: 20px;
+}
+
+.bed__status {
+  color: #566166;
+  font-family: "hnc-roman";
+  font-size: 20px;
+  line-height: 20px;
+}
+
 .bg-9d6 {
   background-color: #0199d6;
 }
@@ -106,6 +126,21 @@
 
 .bg-4f4 {
   background: #f4f4f4;
+}
+
+.modal__button {
+  display: flex;
+  max-width: 140px;
+  justify-content: center;
+  color: #0199d6;
+  font-family: "hnc-roman";
+  font-size: 22px;
+  line-height: 25px;
+  border-radius: 7px;
+}
+.modal__button:hover {
+  color: #194699;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
 }
 
 /*# sourceMappingURL=style.css.map */

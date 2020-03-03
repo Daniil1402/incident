@@ -23,8 +23,8 @@
           <h1 class="header__title text-center">Очередь на госпитализацию</h1>
         </div>
         <div class="col">
-          <a href="" class="btn header__button">Палаты</a>
-          <a href="" class="btn header__button">Выйти</a>
+          <a href="" class="btn header__button" data-toggle="modal" data-target="#exampleModal">Палаты</a>
+          <a href="auth.html" class="btn header__button">Выйти</a>
         </div>
       </div>
     </header>
@@ -67,6 +67,30 @@
       </div>
       <a href="" class="btn people__button rounded-circle">+</a>
     </section>
+
+    <!-- Модальное окно "Выбор палаты" -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Выберите палату</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <a href="" class="btn modal__button">Палата 1</a>
+            <a href="" class="btn modal__button">Палата 2</a>
+            <a href="" class="btn modal__button">Палата 3</a>
+            <a href="" class="btn modal__button">Палата 4</a>
+            <a href="" class="btn modal__button">Палата 5</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
